@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face{font-family:Addict;src:url('ZCOOL Addict Italic.ttf')}
+h1,h2,h3,ul{padding:0;margin:0}
+ul{list-style:none}
+ul li{padding:10px 6px}
+a{text-decoration:none;color:#ffc107}
+a:hover{color:#0095cb;text-decoration:underline}
+h3{height:32px;line-height:32px;padding:4px 0;border-radius:4px 4px 0 0;text-align:center;background:rgba(0,204,204,.6);font-family:Addict sans-serif;font-size:24px;color:white;letter-spacing:1px}
+#css-zen-garden{width:960px;margin:0 auto;font-size:16px;font-family:Arial,Helvetica,sans-serif;color:#000;background:url("./images/background.jpg") fixed;position:relative}
+.intro header h1{margin:10px 0 0 0;border-radius:4px 4px 0 0}
+.intro header h1,.intro header h2{width:auto;background:rgba(0,204,204,.6);color:#fff;text-align:center;font-family:Addict sans-serif}
+.intro header h1::before,.intro header h1::after{display:inline-block;color:rgba(255,255,255,.4)}
+.intro header h1::before{content:'{';padding:0 12px 0 0}
+.intro header h1{height:120px;line-height:120px;font-size:72px}
+.intro header h1::after{content:'}';padding:0 0 0 12px}
+.intro header h2::before{content:"——";display:inline;padding:0 10px 0 0}
+.intro header h2{box-sizing:border-box;height:50px;padding:0 40px;font-style:italic;text-align:right;color:rgba(255,255,255,.9)}
+.summary p:first-child,footer,.sidebar div nav,.sidebar .zen-resources ul{border-radius:0 0 4px 4px}
+.summary p:first-child{margin:0;height:40px;line-height:40px;background:rgba(255,255,255,.8);text-align:center}
+.summary p:last-child{width:366px;height:32px;line-height:32px;display:inline-block;margin:10px 0;padding:4px 0;border-radius:4px 4px 0 0;background:rgba(0,204,204,.6);text-align:center;color:#fff}
+.summary p:last-child{color:rgba(255,255,255,.8)}
+.summary p:last-child a{text-transform:uppercase;color:white}
+.summary p:last-child a:hover{color:#0095cb;text-decoration:underline}
+.preamble,.main div{width:580px;float:right;position:relative;bottom:50px;line-height:1.5em}
+.preamble p,.main div p{padding:10px 4px;margin:0;background:rgba(255,255,255,.8);text-align:center}
+.preamble p:last-of-type,.main div p:last-of-type,.main .requirements p:nth-last-of-type(2){margin:0 0 20px 0;border-radius:0 0 4px 4px}
+.main .requirements{width:960px}
+.main .requirements p:last-child{padding:10px 94px;height:140px;line-height:4rem;border-radius:4px 4px 0 0;font-size:32px;background:rgba(0,204,204,.6);color:rgba(255,255,255,.8)}
+.main .requirements p:last-child a{color:#fff;font-style:italic;font-weight:bold}
+.main .requirements p:last-child a:hover{color:#0095cb;text-decoration:underline}
+footer{clear:both;width:960px;height:100px;background:rgba(0,146,203,.8);position:relative;bottom:70px}
+footer a{width:48px;height:48px;display:inline-block;margin:0 30px;text-indent:-100pc;padding:1px;border:1px dashed rgba(255,255,255,0)}
+footer a:hover{border:1px dashed rgba(255,255,255,1)}
+footer .zen-validate-html{margin:26px 30px 0 240px;background:url('./images/html.png') no-repeat center center}
+footer .zen-validate-css{background:url('./images/css.png') no-repeat center center}
+footer .zen-license{background:url('./images/license.png') no-repeat center center}
+footer .zen-accessibility{background:url('./images/accessibility.png') no-repeat center center}
+footer .zen-github{background:url('./images/github.png') no-repeat center center}
+.sidebar{width:366px;position:absolute;top:260px}
+.sidebar h3{text-align:left;padding:4px 20px}
+.sidebar .design-archives{margin:40px 0}
+.sidebar .design-selection{margin:0}
+.design-selection .select{border-radius:0}
+.sidebar div nav,.sidebar .zen-resources ul{background:rgba(255,255,255,.8);margin:0 0 20px 0}
+.sidebar div nav ul li{margin:0 20px;text-align:right}
+.sidebar ul li a{color:#000}
+.sidebar ul li a:hover{color:#0095cb;text-decoration:underline}
+.sidebar .design-selection .design-name{display:block;text-align:left;font-size:22px;padding:0 0 10px 0}
+.sidebar .design-selection .designer-name{font-size:18px;display:inline-block;padding:0 0 0 10px;font-style:italic;color:#ffc107}
+.sidebar .design-selection .designer-name:hover{color:#0095cb}
+.sidebar .design-archives ul li,.sidebar .zen-resources ul li{font-size:22px;padding:20px 0;text-align:center}
+.sidebar .zen-resources ul li{font-size:18px;padding:13px 0}
